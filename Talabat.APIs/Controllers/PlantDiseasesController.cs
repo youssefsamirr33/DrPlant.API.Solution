@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.RegularExpressions;
 using Talabat.APIs.Errors;
 using Talabat.Core;
 using Talabat.Core.Entities.Diseases;
@@ -21,11 +22,14 @@ namespace Talabat.APIs.Controllers
         }
 
 
-        [HttpGet("predict")]
+        [HttpPost("predict")]
         public async Task<IActionResult> PredictDisease(IFormFile file)
         {
             try
             {
+                string plantName = string.Empty;
+                string diseaseName = string.Empty;
+
                 if (file is null || file.Length == 0)
                     return BadRequest(new ApiResponse(400, "Please upload a valid image file."));
 
@@ -37,16 +41,30 @@ namespace Talabat.APIs.Controllers
 
                 var result =await _pLantDiseasesService.PredictDiseaseAsync(file);
 
-                var plantName = result.Split("__")[0];
-                var DiseasesName = result.Split("__")[1];
+                string pattern = @"""disease_name"":\s*""'(.+?)',""";
+                Match match = Regex.Match(result, pattern);
 
-                var spec = new PlantDiseasesSpecifications(plantName.ToLower(), DiseasesName.ToLower());
-                var plant = await _unitOfWork.Repository<PlantDiseases>().GetByIdWithSpecAsync(spec);
+                if (match.Success)
+                {
+                    string diseaseNameRaw = match.Groups[1].Value; 
 
                 
+                    string[] parts = diseaseNameRaw.Split(" - ");
+                    plantName = parts.Length > 0 ? parts[0].Trim() : "Unknown";
+                    diseaseName = parts.Length > 1 ? parts[1].Trim() : "Unknown";
+
+                }
+                else
+                {
+                    Console.WriteLine("Failed to extract disease_name.");
+                }
 
 
-                return Ok(result);
+                var spec = new PlantDiseasesSpecifications(plantName.ToLower(), diseaseName.ToLower());
+                var plant = await _unitOfWork.Repository<PlantDiseases>().GetByIdWithSpecAsync(spec);
+
+
+                return Ok(plant);
 
             }
             catch (Exception ex)
