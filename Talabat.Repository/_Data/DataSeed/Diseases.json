@@ -1,0 +1,382 @@
+[
+    {
+      "plant_name": "Apple",
+      "disease_name": "Apple_scab",
+      "description": "Fungal disease causing olive-green to black spots on leaves and fruit. Caused by Venturia inaequalis.",
+      "prevention_tips": "1. Plant resistant varieties (Liberty, Enterprise)\n2. Remove fallen leaves in autumn\n3. Prune for airflow (18-24\" between branches)\n4. Apply 5-10cm mulch (not touching trunk)\n5. Avoid overhead irrigation",
+      "treatment_methods": "1. Apply copper fungicide at green tip stage\n2. Sulfur sprays every 7-10 days during wet periods\n3. Remove severely infected fruit\n4. Summer fungicides if wet weather continues",
+      "organic_options": "1. Baking soda spray (1 tbsp/gallon)\n2. Neem oil\n3. Bacillus subtilis\n4. Compost tea foliar spray",
+      "chemical_options": "1. Myclobutanil (Spectracide Immunox)\n2. Trifloxystrobin + Fluopyram\n3. Mancozeb (early season)",
+      "diagnostic_images_url": "https://example.com/images/apple_scab.jpg"
+    },
+    {
+      "plant_name": "Apple",
+      "disease_name": "Black_rot",
+      "description": "Fungal disease causing \"frog-eye\" leaf spots and mummified fruit. Caused by Botryosphaeria obtusa.",
+      "prevention_tips": "1. Remove all mummified fruit\n2. Prune out dead wood\n3. Disinfect tools between cuts\n4. Avoid wounding trees\n5. Maintain balanced fertilization",
+      "treatment_methods": "1. Apply fungicides during wet periods\n2. Remove infected branches\n3. Thin fruit clusters\n4. Summer fungicide applications",
+      "organic_options": "1. Copper fungicides\n2. Garlic extract sprays\n3. Milk spray (1:9 ratio)",
+      "chemical_options": "1. Captan\n2. Thiophanate-methyl\n3. Tebuconazole",
+      "diagnostic_images_url": "https://example.com/images/apple_black_rot.jpg"
+    },
+    {
+      "plant_name": "Apple",
+      "disease_name": "Cedar_apple_rust",
+      "description": "Fungal disease with orange leaf spots and gelatinous growths. Requires juniper as alternate host.",
+      "prevention_tips": "1. Remove nearby junipers (within 2 miles ideal)\n2. Plant resistant varieties\n3. Rake fallen leaves\n4. Improve air circulation",
+      "treatment_methods": "1. Fungicide applications at pink bud stage\n2. Repeat at 10-14 day intervals\n3. Remove severely infected leaves",
+      "organic_options": "1. Sulfur sprays\n2. Potassium bicarbonate\n3. Garlic oil extract",
+      "chemical_options": "1. Myclobutanil\n2. Propiconazole\n3. Triadimefon",
+      "diagnostic_images_url": "https://example.com/images/cedar_apple_rust.jpg"
+    },
+    {
+      "plant_name": "Apple",
+      "disease_name": "healthy",
+      "description": "Maintaining apple tree health to prevent disease",
+      "prevention_tips": "1. Annual pruning during dormancy\n2. Balanced 10-10-10 fertilizer in spring\n3. Consistent deep watering\n4. Soil pH 6.0-6.5\n5. 6-8 hours sunlight daily",
+      "treatment_methods": "1. Dormant oil spray in late winter\n2. Regular monitoring for pests\n3. Mulch renewal annually",
+      "organic_options": "1. Compost application in spring\n2. Beneficial insect habitats\n3. Organic foliar feeds",
+      "chemical_options": "1. Balanced NPK fertilizers\n2. pH adjustment products",
+      "diagnostic_images_url": "https://example.com/images/healthy_apple.jpg"
+    },
+    {
+      "plant_name": "Blueberry",
+      "disease_name": "healthy",
+      "description": "Maintaining blueberry bush health",
+      "prevention_tips": "1. Maintain soil pH 4.5-5.2\n2. Annual pruning of old canes\n3. 2-4\" pine needle mulch\n4. Consistent moisture (drip irrigation ideal)",
+      "treatment_methods": "1. Soil testing every 2 years\n2. Bird netting when fruiting\n3. Regular weed control",
+      "organic_options": "1. Coffee grounds for pH maintenance\n2. Fish emulsion fertilizer\n3. Compost tea drenches",
+      "chemical_options": "1. Ammonium sulfate for nitrogen\n2. Chelated iron if chlorosis appears",
+      "diagnostic_images_url": "https://example.com/images/healthy_blueberry.jpg"
+    },
+    {
+      "plant_name": "Cherry",
+      "disease_name": "Powdery_mildew",
+      "description": "White powdery fungal growth on leaves and shoots",
+      "prevention_tips": "1. Plant resistant varieties\n2. Avoid overhead watering\n3. Prune for good air circulation\n4. Remove infected plant material",
+      "treatment_methods": "1. Apply fungicides at first sign\n2. Remove severely infected shoots\n3. Time applications to protect new growth",
+      "organic_options": "1. Milk spray (1:9 ratio)\n2. Baking soda solution\n3. Neem oil",
+      "chemical_options": "1. Myclobutanil\n2. Tebuconazole\n3. Triflumizole",
+      "diagnostic_images_url": "https://example.com/images/cherry_powdery_mildew.jpg"
+    },
+    {
+      "plant_name": "Cherry",
+      "disease_name": "healthy",
+      "description": "Maintaining cherry tree health",
+      "prevention_tips": "1. Well-drained soil with pH 6.0-7.0\n2. Annual pruning after fruiting\n3. Balanced fertilizer in early spring\n4. Bird protection for fruit",
+      "treatment_methods": "1. Dormant oil spray for pests\n2. Regular inspection for borers\n3. Summer pruning for airflow",
+      "organic_options": "1. Compost mulch\n2. Companion planting with alliums\n3. Beneficial nematodes",
+      "chemical_options": "1. Balanced fruit tree fertilizers\n2. Calcium sprays to prevent cracking",
+      "diagnostic_images_url": "https://example.com/images/healthy_cherry.jpg"
+    },
+    {
+      "plant_name": "Corn",
+      "disease_name": "Cercospora_leaf_spot Gray_leaf_spot",
+      "description": "Fungal disease causing rectangular tan lesions with dark borders on leaves",
+      "prevention_tips": "1. 3-year crop rotation\n2. Resistant hybrids\n3. Proper plant spacing\n4. Remove crop debris after harvest",
+      "treatment_methods": "1. Fungicide applications at disease onset\n2. Early planting to avoid peak disease periods\n3. Foliar nutrient support",
+      "organic_options": "1. Copper-based fungicides\n2. Bacillus subtilis\n3. Compost tea sprays",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/corn_gray_leaf_spot.jpg"
+    },
+    {
+      "plant_name": "Corn",
+      "disease_name": "Common_rust",
+      "description": "Orange-brown pustules on leaves caused by Puccinia sorghi",
+      "prevention_tips": "1. Early planting\n2. Resistant hybrids\n3. Avoid overhead irrigation\n4. Balanced nitrogen fertilization",
+      "treatment_methods": "1. Fungicide applications when first pustules appear\n2. Foliar zinc applications\n3. Remove volunteer corn plants",
+      "organic_options": "1. Sulfur dust\n2. Neem oil\n3. Potassium bicarbonate",
+      "chemical_options": "1. Tebuconazole\n2. Propiconazole\n3. Triadimefon",
+      "diagnostic_images_url": "https://example.com/images/corn_common_rust.jpg"
+    },
+    {
+      "plant_name": "Corn",
+      "disease_name": "Northern_Leaf_Blight",
+      "description": "Elliptical gray-green lesions that turn tan with age, caused by Exserohilum turcicum",
+      "prevention_tips": "1. Resistant hybrids\n2. Crop rotation (2+ years non-host)\n3. Deep plowing of crop debris\n4. Proper plant spacing",
+      "treatment_methods": "1. Fungicide applications at disease onset\n2. Early planting\n3. Foliar nutrient support",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost extracts",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin + Metconazole",
+      "diagnostic_images_url": "https://example.com/images/corn_northern_blight.jpg"
+    },
+    {
+      "plant_name": "Corn",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy corn plants",
+      "prevention_tips": "1. Proper planting depth (1.5-2\")\n2. Soil testing and balanced fertilization\n3. Adequate spacing (8-12\" apart)\n4. Crop rotation",
+      "treatment_methods": "1. Regular scouting for pests\n2. Side-dressing nitrogen at knee-high stage\n3. Irrigation during drought",
+      "organic_options": "1. Compost application\n2. Cover cropping\n3. Fish emulsion fertilizer",
+      "chemical_options": "1. Starter fertilizers\n2. Foliar micronutrients\n3. Herbicides for weed control",
+      "diagnostic_images_url": "https://example.com/images/healthy_corn.jpg"
+    },
+    {
+      "plant_name": "Grape",
+      "disease_name": "Black_rot",
+      "description": "Fungal disease causing brown leaf spots and mummified berries (Guignardia bidwellii)",
+      "prevention_tips": "1. Remove all mummies during dormancy\n2. Proper canopy management\n3. Resistant varieties\n4. Avoid overhead irrigation",
+      "treatment_methods": "1. Critical spray at 3-5\" shoot growth\n2. Pre-bloom spray (most important)\n3. Post-bloom spray\n4. Fruit thinning",
+      "organic_options": "1. Sulfur dust\n2. Serenade MAX (Bacillus amyloliquefaciens)\n3. Horsetail tea extract",
+      "chemical_options": "1. Azoxystrobin (Abound)\n2. Tebuconazole (Elite)\n3. Penthiopyrad (Fontelis)",
+      "diagnostic_images_url": "https://example.com/images/grape_black_rot.jpg"
+    },
+    {
+      "plant_name": "Grape",
+      "disease_name": "Esca_(Black_Measles)",
+      "description": "Complex wood disease causing tiger-stripe leaf patterns and berry spotting",
+      "prevention_tips": "1. Avoid trunk wounds\n2. Paint pruning cuts\n3. Remove infected vines\n4. Balanced nutrition",
+      "treatment_methods": "1. Trunk surgery to remove infected wood\n2. Preventive fungicide sprays\n3. Vineyard sanitation",
+      "organic_options": "1. Compost tea drenches\n2. Trichoderma applications\n3. Seaweed extracts",
+      "chemical_options": "1. Tebuconazole trunk sprays\n2. Sodium tetrathiocarbonate\n3. Cyprodinil + Fludioxonil",
+      "diagnostic_images_url": "https://example.com/images/grape_esca.jpg"
+    },
+    {
+      "plant_name": "Grape",
+      "disease_name": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "description": "Fungal disease causing angular brown spots with yellow halos",
+      "prevention_tips": "1. Proper canopy management\n2. Remove infected leaves\n3. Avoid overhead irrigation\n4. Balanced fertilization",
+      "treatment_methods": "1. Copper sprays at first symptoms\n2. Fungicide rotations\n3. Defoliation of severely infected leaves",
+      "organic_options": "1. Copper octanoate\n2. Bacillus subtilis\n3. Potassium bicarbonate",
+      "chemical_options": "1. Mancozeb\n2. Pyraclostrobin\n3. Fluazinam",
+      "diagnostic_images_url": "https://example.com/images/grape_leaf_blight.jpg"
+    },
+    {
+      "plant_name": "Grape",
+      "disease_name": "healthy",
+      "description": "Maintaining grapevine health",
+      "prevention_tips": "1. Proper trellising system\n2. Balanced pruning (30-50 buds per vine)\n3. Soil pH 5.5-6.5\n4. Regular irrigation schedule",
+      "treatment_methods": "1. Dormant pruning\n2. Shoot positioning\n3. Leaf removal in fruit zone",
+      "organic_options": "1. Compost applications\n2. Cover crops\n3. Compost tea sprays",
+      "chemical_options": "1. Balanced fertilizers\n2. pH adjustment products\n3. Foliar nutrients",
+      "diagnostic_images_url": "https://example.com/images/healthy_grape.jpg"
+    },
+    {
+      "plant_name": "Orange",
+      "disease_name": "Haunglongbing_(Citrus_greening)",
+      "description": "Bacterial disease causing yellow shoots, lopsided fruit, and bitter juice (Candidatus Liberibacter asiaticus)",
+      "prevention_tips": "1. Source certified disease-free trees\n2. Psyllid monitoring with yellow sticky traps\n3. Screen houses for young trees\n4. Remove infected trees immediately",
+      "treatment_methods": "1. Soil-applied systemic insecticides\n2. Foliar psyllid control during flushes\n3. Nutritional programs to prolong productivity",
+      "organic_options": "1. Kaolin clay sprays\n2. Tamarixia radiata releases\n3. Compost tea drenches",
+      "chemical_options": "1. Cyantraniliprole (Exirel)\n2. Abamectin + Thiamethoxam\n3. Imidacloprid (soil drench)",
+      "diagnostic_images_url": "https://example.com/images/citrus_greening.jpg"
+    },
+    {
+      "plant_name": "Peach",
+      "disease_name": "Bacterial_spot",
+      "description": "Bacterial disease causing angular leaf spots and fruit cracking (Xanthomonas arboricola)",
+      "prevention_tips": "1. Resistant varieties (e.g., 'Redhaven')\n2. Copper sprays at leaf fall and bud swell\n3. Avoid pruning during wet weather\n4. Balanced soil pH (6.0-6.5)",
+      "treatment_methods": "1. Streptomycin at petal fall (where permitted)\n2. Oxytetracycline during shuck split\n3. Remove severely infected twigs",
+      "organic_options": "1. Copper octanoate (Cueva)\n2. Regalia (giant knotweed extract)\n3. Compost tea foliar sprays",
+      "chemical_options": "1. Kasugamycin (where registered)\n2. Mancozeb + copper combos\n3. Acibenzolar-S-methyl (Actigard)",
+      "diagnostic_images_url": "https://example.com/images/peach_bacterial_spot.jpg"
+    },
+    {
+      "plant_name": "Peach",
+      "disease_name": "healthy",
+      "description": "Maintaining peach tree health",
+      "prevention_tips": "1. Annual pruning for open center\n2. Well-drained soil\n3. Balanced fertilization\n4. Fruit thinning",
+      "treatment_methods": "1. Dormant oil spray\n2. Regular pest monitoring\n3. Summer pruning",
+      "organic_options": "1. Compost applications\n2. Beneficial insect habitats\n3. Organic foliar feeds",
+      "chemical_options": "1. Balanced NPK fertilizers\n2. Calcium sprays for fruit quality",
+      "diagnostic_images_url": "https://example.com/images/healthy_peach.jpg"
+    },
+    {
+      "plant_name": "Pepper",
+      "disease_name": "Bacterial_spot",
+      "description": "Bacterial disease causing water-soaked leaf spots and fruit lesions (Xanthomonas spp.)",
+      "prevention_tips": "1. Disease-free seed\n2. Avoid overhead irrigation\n3. 3-year crop rotation\n4. Resistant varieties",
+      "treatment_methods": "1. Copper sprays at first symptoms\n2. Remove infected plants\n3. Avoid working when plants are wet",
+      "organic_options": "1. Copper-based bactericides\n2. Bacillus subtilis\n3. Hydrogen peroxide sprays",
+      "chemical_options": "1. Mancozeb + copper combos\n2. Streptomycin (limited effectiveness)\n3. Oxytetracycline",
+      "diagnostic_images_url": "https://example.com/images/pepper_bacterial_spot.jpg"
+    },
+    {
+      "plant_name": "Pepper",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy pepper plants",
+      "prevention_tips": "1. Well-drained soil with pH 6.0-6.8\n2. Consistent moisture\n3. Proper spacing (18-24\" apart)\n4. Mulching",
+      "treatment_methods": "1. Regular pest scouting\n2. Balanced fertilization\n3. Support for heavy fruit loads",
+      "organic_options": "1. Compost tea\n2. Fish emulsion\n3. Epsom salt for magnesium",
+      "chemical_options": "1. Balanced fertilizers\n2. Calcium nitrate for blossom end rot prevention",
+      "diagnostic_images_url": "https://example.com/images/healthy_pepper.jpg"
+    },
+    {
+      "plant_name": "Potato",
+      "disease_name": "Early_blight",
+      "description": "Fungal disease causing concentric ring spots on leaves (Alternaria solani)",
+      "prevention_tips": "1. 3-year crop rotation\n2. Resistant varieties\n3. Proper hilling\n4. Remove volunteer plants",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected foliage\n3. Balanced nitrogen fertilization",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost tea sprays",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/potato_early_blight.jpg"
+    },
+    {
+      "plant_name": "Potato",
+      "disease_name": "Late_blight",
+      "description": "Devastating water mold causing water-soaked lesions and white fungal growth (Phytophthora infestans)",
+      "prevention_tips": "1. Certified disease-free seed potatoes\n2. 3-year rotation away from tomatoes\n3. Avoid overhead irrigation\n4. Destroy cull piles",
+      "treatment_methods": "1. Preventive fungicide applications\n2. Remove and destroy infected plants\n3. Vine killing before harvest",
+      "organic_options": "1. Copper hydroxide\n2. Hydrogen peroxide (ZeroTol)\n3. Garlic extract sprays",
+      "chemical_options": "1. Chlorothalonil\n2. Mandipropamid (Revus)\n3. Fluopicolide + Propamocarb",
+      "diagnostic_images_url": "https://example.com/images/potato_late_blight.jpg"
+    },
+    {
+      "plant_name": "Potato",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy potato plants",
+      "prevention_tips": "1. Well-drained soil with pH 5.0-6.5\n2. Proper seed piece preparation\n3. Regular hilling\n4. Balanced fertilization",
+      "treatment_methods": "1. Regular pest monitoring\n2. Irrigation management\n3. Proper curing after harvest",
+      "organic_options": "1. Compost applications\n2. Cover cropping\n3. Compost tea drenches",
+      "chemical_options": "1. Balanced NPK fertilizers\n2. Seed piece treatments",
+      "diagnostic_images_url": "https://example.com/images/healthy_potato.jpg"
+    },
+    {
+      "plant_name": "Raspberry",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy raspberry plants",
+      "prevention_tips": "1. Well-drained soil with pH 5.6-6.2\n2. Annual pruning of floricanes\n3. Trellising for airflow\n4. Mulching",
+      "treatment_methods": "1. Regular pest monitoring\n2. Remove old canes after fruiting\n3. Weed control",
+      "organic_options": "1. Compost applications\n2. Fish emulsion\n3. Neem oil for pests",
+      "chemical_options": "1. Balanced fertilizers\n2. Calcium sprays for fruit firmness",
+      "diagnostic_images_url": "https://example.com/images/healthy_raspberry.jpg"
+    },
+    {
+      "plant_name": "Soybean",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy soybean plants",
+      "prevention_tips": "1. Proper planting depth (1-1.5\")\n2. Inoculate seed with rhizobia\n3. Crop rotation\n4. Balanced fertilization",
+      "treatment_methods": "1. Regular scouting for pests\n2. Irrigation during pod fill\n3. Timely harvest",
+      "organic_options": "1. Compost applications\n2. Cover cropping\n3. Fish emulsion",
+      "chemical_options": "1. Balanced fertilizers\n2. pH adjustment products",
+      "diagnostic_images_url": "https://example.com/images/healthy_soybean.jpg"
+    },
+    {
+      "plant_name": "Squash",
+      "disease_name": "Powdery_mildew",
+      "description": "White powdery fungal growth on leaves (Podosphaera xanthii)",
+      "prevention_tips": "1. Resistant varieties\n2. Proper spacing (3-5' apart)\n3. Avoid overhead watering\n4. Morning sun exposure",
+      "treatment_methods": "1. Apply fungicides at first sign\n2. Remove severely infected leaves\n3. Time applications to protect new growth",
+      "organic_options": "1. Milk spray (1:9 ratio)\n2. Baking soda solution\n3. Neem oil",
+      "chemical_options": "1. Myclobutanil\n2. Tebuconazole\n3. Triflumizole",
+      "diagnostic_images_url": "https://example.com/images/squash_powdery_mildew.jpg"
+    },
+    {
+      "plant_name": "Strawberry",
+      "disease_name": "Leaf_scorch",
+      "description": "Fungal disease causing purple leaf spots and scorched appearance (Diplocarpon earliana)",
+      "prevention_tips": "1. Resistant varieties\n2. Proper plant spacing\n3. Remove old leaves after harvest\n4. Avoid overhead irrigation",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected leaves\n3. Renovate beds annually",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost tea",
+      "chemical_options": "1. Captan\n2. Myclobutanil\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/strawberry_leaf_scorch.jpg"
+    },
+    {
+      "plant_name": "Strawberry",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy strawberry plants",
+      "prevention_tips": "1. Well-drained soil with pH 5.5-6.5\n2. Annual renovation\n3. Proper spacing\n4. Mulching",
+      "treatment_methods": "1. Regular pest monitoring\n2. Irrigation management\n3. Remove runners for better fruiting",
+      "organic_options": "1. Compost applications\n2. Fish emulsion\n3. Seaweed extracts",
+      "chemical_options": "1. Balanced fertilizers\n2. Calcium sprays for fruit quality",
+      "diagnostic_images_url": "https://example.com/images/healthy_strawberry.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Bacterial_spot",
+      "description": "Bacterial disease causing small, water-soaked leaf spots (Xanthomonas spp.)",
+      "prevention_tips": "1. Disease-free seed\n2. 3-year crop rotation\n3. Avoid overhead irrigation\n4. Resistant varieties",
+      "treatment_methods": "1. Copper sprays at first symptoms\n2. Remove infected plants\n3. Avoid working when wet",
+      "organic_options": "1. Copper-based bactericides\n2. Bacillus subtilis\n3. Hydrogen peroxide sprays",
+      "chemical_options": "1. Mancozeb + copper combos\n2. Streptomycin (limited effectiveness)\n3. Oxytetracycline",
+      "diagnostic_images_url": "https://example.com/images/tomato_bacterial_spot.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Early_blight",
+      "description": "Fungal disease causing target-like leaf spots (Alternaria solani)",
+      "prevention_tips": "1. Resistant varieties\n2. Proper spacing (24-36\" apart)\n3. Stake plants for airflow\n4. Remove lower leaves",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected leaves\n3. Balanced fertilization",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost tea",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/tomato_early_blight.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Late_blight",
+      "description": "Devastating water mold causing water-soaked lesions (Phytophthora infestans)",
+      "prevention_tips": "1. Resistant varieties\n2. 3-year rotation away from potatoes\n3. Avoid overhead irrigation\n4. Plastic mulch",
+      "treatment_methods": "1. Preventive fungicide applications\n2. Remove and destroy infected plants\n3. Vine killing before harvest",
+      "organic_options": "1. Copper hydroxide\n2. Hydrogen peroxide (ZeroTol)\n3. Garlic extract sprays",
+      "chemical_options": "1. Chlorothalonil\n2. Mandipropamid (Revus)\n3. Fluopicolide + Propamocarb",
+      "diagnostic_images_url": "https://example.com/images/tomato_late_blight.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Leaf_Mold",
+      "description": "Fungal disease causing yellow leaf spots with purple undersides (Fulvia fulva)",
+      "prevention_tips": "1. Resistant varieties\n2. Greenhouse ventilation\n3. Avoid overhead irrigation\n4. Proper spacing",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected leaves\n3. Reduce humidity",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Potassium bicarbonate",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/tomato_leaf_mold.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Septoria_leaf_spot",
+      "description": "Fungal disease causing small circular spots with dark borders (Septoria lycopersici)",
+      "prevention_tips": "1. Resistant varieties\n2. Remove lower leaves\n3. Avoid overhead irrigation\n4. Crop rotation",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected leaves\n3. Balanced fertilization",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost tea",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/tomato_septoria.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Spider_mites Two-spotted_spider_mite",
+      "description": "Tiny arachnids causing stippling and webbing on leaves (Tetranychus urticae)",
+      "prevention_tips": "1. Monitor undersides of leaves\n2. Avoid dusty conditions\n3. Proper irrigation\n4. Weed control",
+      "treatment_methods": "1. Miticide applications when detected\n2. Remove severely infested leaves\n3. Increase humidity",
+      "organic_options": "1. Neem oil\n2. Insecticidal soap\n3. Predatory mites (Phytoseiulus persimilis)",
+      "chemical_options": "1. Bifenthrin\n2. Abamectin\n3. Spiromesifen",
+      "diagnostic_images_url": "https://example.com/images/tomato_spider_mites.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Target_Spot",
+      "description": "Fungal disease causing concentric ring spots (Corynespora cassiicola)",
+      "prevention_tips": "1. Resistant varieties\n2. Proper spacing\n3. Remove lower leaves\n4. Avoid overhead irrigation",
+      "treatment_methods": "1. Fungicide applications at first symptoms\n2. Remove infected leaves\n3. Balanced fertilization",
+      "organic_options": "1. Copper fungicides\n2. Bacillus subtilis\n3. Compost tea",
+      "chemical_options": "1. Chlorothalonil\n2. Azoxystrobin\n3. Pyraclostrobin",
+      "diagnostic_images_url": "https://example.com/images/tomato_target_spot.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Tomato_Yellow_Leaf_Curl_Virus",
+      "description": "Viral disease causing upward leaf curling and yellowing, spread by whiteflies",
+      "prevention_tips": "1. Resistant varieties\n2. Whitefly control\n3. Remove infected plants\n4. Reflective mulches",
+      "treatment_methods": "1. No cure - remove infected plants\n2. Insecticide for whiteflies\n3. Roguing of infected plants",
+      "organic_options": "1. Neem oil for whiteflies\n2. Kaolin clay\n3. Beneficial insects",
+      "chemical_options": "1. Imidacloprid for whiteflies\n2. Dinotefuran\n3. Pyriproxyfen",
+      "diagnostic_images_url": "https://example.com/images/tomato_yellow_curl.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "Tomato_mosaic_virus",
+      "description": "Viral disease causing mottled leaves and stunted growth",
+      "prevention_tips": "1. Resistant varieties\n2. Disinfect tools\n3. Control chewing insects\n4. Avoid smoking near plants",
+      "treatment_methods": "1. No cure - remove infected plants\n2. Rogue symptomatic plants\n3. Control insect vectors",
+      "organic_options": "1. Milk spray (may reduce transmission)\n2. Beneficial insects for pest control",
+      "chemical_options": "1. Insecticides for vector control\n2. Virucides are generally ineffective",
+      "diagnostic_images_url": "https://example.com/images/tomato_mosaic_virus.jpg"
+    },
+    {
+      "plant_name": "Tomato",
+      "disease_name": "healthy",
+      "description": "Maintaining healthy tomato plants",
+      "prevention_tips": "1. Well-drained soil with pH 6.0-6.8\n2. Full sun (6+ hours daily)\n3. Proper spacing\n4. Consistent watering",
+      "treatment_methods": "1. Regular pest monitoring\n2. Proper staking/caging\n3. Mulching\n4. Balanced fertilization",
+      "organic_options": "1. Compost applications\n2. Fish emulsion\n3. Epsom salt for magnesium",
+      "chemical_options": "1. Balanced fertilizers\n2. Calcium nitrate for blossom end rot prevention",
+      "diagnostic_images_url": "https://example.com/images/healthy_tomato.jpg"
+    }
+  ]

@@ -1,0 +1,218 @@
+[
+    {
+      "Name": "Premium Wheat Seeds",
+      "Description": "High-yield wheat seeds with 95% germination rate. Suitable for all soil types.",
+      "Price": 350,
+      "PictureUrl": "images/products/wheat-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 1
+    },
+    {
+      "Name": "Organic Tomato Seeds",
+      "Description": "Disease-resistant tomato seeds for home gardens and commercial farming.",
+      "Price": 120,
+      "PictureUrl": "images/products/tomato-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 2
+    },
+    {
+      "Name": "NPK Fertilizer 20-20-20",
+      "Description": "Balanced fertilizer for all crops. Promotes healthy growth and high yields.",
+      "Price": 450,
+      "PictureUrl": "images/products/npk-fertilizer.png",
+      "CategoryId": 2,
+      "BrandId": 3
+    },
+    {
+      "Name": "Organic Compost 5kg",
+      "Description": "100% natural compost made from plant waste. Improves soil structure.",
+      "Price": 180,
+      "PictureUrl": "images/products/organic-compost.png",
+      "CategoryId": 2,
+      "BrandId": 5
+    },
+    {
+      "Name": "Neem Oil Pesticide",
+      "Description": "Organic pest control solution. Safe for plants and environment.",
+      "Price": 220,
+      "PictureUrl": "images/products/neem-oil.png",
+      "CategoryId": 3,
+      "BrandId": 4
+    },
+    {
+      "Name": "Stainless Steel Pruner",
+      "Description": "Professional grade pruning shears for precise cutting of plants.",
+      "Price": 280,
+      "PictureUrl": "images/products/pruner.png",
+      "CategoryId": 4,
+      "BrandId": 1
+    },
+    {
+      "Name": "Drip Irrigation Kit",
+      "Description": "Complete 50m drip irrigation system with pressure regulator.",
+      "Price": 1200,
+      "PictureUrl": "images/products/drip-irrigation.png",
+      "CategoryId": 5,
+      "BrandId": 2
+    },
+    {
+      "Name": "Hybrid Corn Seeds",
+      "Description": "High-protein corn seeds with drought resistance. 25kg bag.",
+      "Price": 680,
+      "PictureUrl": "images/products/corn-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 3
+    },
+    {
+      "Name": "Bone Meal Fertilizer",
+      "Description": "Rich in phosphorus for root development and flowering plants.",
+      "Price": 320,
+      "PictureUrl": "images/products/bone-meal.png",
+      "CategoryId": 2,
+      "BrandId": 4
+    },
+    {
+      "Name": "Copper Fungicide",
+      "Description": "Controls fungal diseases on fruits, vegetables and ornamentals.",
+      "Price": 380,
+      "PictureUrl": "images/products/copper-fungicide.png",
+      "CategoryId": 3,
+      "BrandId": 5
+    },
+    {
+      "Name": "Garden Hoe",
+      "Description": "Heavy-duty steel hoe for weeding and soil cultivation.",
+      "Price": 190,
+      "PictureUrl": "images/products/garden-hoe.png",
+      "CategoryId": 4,
+      "BrandId": 1
+    },
+    {
+      "Name": "Sprinkler System",
+      "Description": "360° rotating sprinkler with adjustable spray pattern.",
+      "Price": 420,
+      "PictureUrl": "images/products/sprinkler.png",
+      "CategoryId": 5,
+      "BrandId": 2
+    },
+    {
+      "Name": "Basil Herb Seeds",
+      "Description": "Aromatic basil seeds for culinary use. Grows well in pots.",
+      "Price": 85,
+      "PictureUrl": "images/products/basil-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 3
+    },
+    {
+      "Name": "Seaweed Extract",
+      "Description": "Liquid fertilizer rich in micronutrients and growth hormones.",
+      "Price": 275,
+      "PictureUrl": "images/products/seaweed-extract.png",
+      "CategoryId": 2,
+      "BrandId": 4
+    },
+    {
+      "Name": "Insect Netting",
+      "Description": "Protective mesh netting against insects and birds. 4m x 10m.",
+      "Price": 350,
+      "PictureUrl": "images/products/insect-netting.png",
+      "CategoryId": 3,
+      "BrandId": 5
+    },
+    {
+      "Name": "Garden Trowel",
+      "Description": "Ergonomic stainless steel trowel for planting and transplanting.",
+      "Price": 150,
+      "PictureUrl": "images/products/garden-trowel.png",
+      "CategoryId": 4,
+      "BrandId": 1
+    },
+    {
+      "Name": "Water Timer",
+      "Description": "Digital irrigation timer with 4 programs and rain delay function.",
+      "Price": 520,
+      "PictureUrl": "images/products/water-timer.png",
+      "CategoryId": 5,
+      "BrandId": 2
+    },
+    {
+      "Name": "Carrot Seeds",
+      "Description": "Sweet Nantes variety carrot seeds with high germination rate.",
+      "Price": 95,
+      "PictureUrl": "images/products/carrot-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 3
+    },
+    {
+      "Name": "Vermicompost",
+      "Description": "Organic fertilizer produced by earthworms. 10kg bag.",
+      "Price": 240,
+      "PictureUrl": "images/products/vermicompost.png",
+      "CategoryId": 2,
+      "BrandId": 4
+    },
+    {
+      "Name": "Yellow Sticky Traps",
+      "Description": "Non-toxic pest control for whiteflies, aphids and fungus gnats.",
+      "Price": 120,
+      "PictureUrl": "images/products/sticky-traps.png",
+      "CategoryId": 3,
+      "BrandId": 5
+    },
+    {
+      "Name": "Garden Fork",
+      "Description": "4-prong forged steel fork for turning compost and aerating soil.",
+      "Price": 310,
+      "PictureUrl": "images/products/garden-fork.png",
+      "CategoryId": 4,
+      "BrandId": 1
+    },
+    {
+      "Name": "Soaker Hose",
+      "Description": "50ft porous hose for efficient root-zone watering.",
+      "Price": 280,
+      "PictureUrl": "images/products/soaker-hose.png",
+      "CategoryId": 5,
+      "BrandId": 2
+    },
+    {
+      "Name": "Lettuce Seeds Mix",
+      "Description": "Assorted lettuce varieties for continuous harvest. 5000 seeds.",
+      "Price": 110,
+      "PictureUrl": "images/products/lettuce-seeds.png",
+      "CategoryId": 1,
+      "BrandId": 3
+    },
+    {
+      "Name": "Epsom Salt",
+      "Description": "Magnesium sulfate for correcting magnesium deficiency in plants.",
+      "Price": 160,
+      "PictureUrl": "images/products/epsom-salt.png",
+      "CategoryId": 2,
+      "BrandId": 4
+    },
+    {
+      "Name": "Biological Pest Control",
+      "Description": "Beneficial nematodes for natural control of soil-dwelling pests.",
+      "Price": 390,
+      "PictureUrl": "images/products/biological-control.png",
+      "CategoryId": 3,
+      "BrandId": 5
+    },
+    {
+      "Name": "Pruning Saw",
+      "Description": "Folding saw with razor teeth for cutting branches up to 4 inches.",
+      "Price": 340,
+      "PictureUrl": "images/products/pruning-saw.png",
+      "CategoryId": 4,
+      "BrandId": 1
+    },
+    {
+      "Name": "Rain Barrel",
+      "Description": "80-gallon water collection system with spigot and mosquito screen.",
+      "Price": 950,
+      "PictureUrl": "images/products/rain-barrel.png",
+      "CategoryId": 5,
+      "BrandId": 2
+    }
+  ]
