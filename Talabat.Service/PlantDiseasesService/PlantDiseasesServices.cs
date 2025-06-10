@@ -21,7 +21,7 @@ namespace Talabat.Application.PlantDiseasesService
         {
             try
             {
-                var requestUrl = "https://76fe-34-148-191-216.ngrok-free.app/predict"; // URL For Flask Api for detection
+                var requestUrl = "https://10cd-34-73-15-228.ngrok-free.app/predict"; // URL For Flask Api for detection
 
                 using var content = new MultipartFormDataContent();
                 using var memoryStream = new MemoryStream();
