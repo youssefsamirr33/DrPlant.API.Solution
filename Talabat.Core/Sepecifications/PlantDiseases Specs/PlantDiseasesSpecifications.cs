@@ -11,8 +11,8 @@ namespace Talabat.Core.Sepecifications.PlantDiseases_Specs
     {
         public PlantDiseasesSpecifications(string plantName , string diseasesName)
             : base(p =>
-             (string.IsNullOrEmpty(plantName) || p.plant_name.ToLower().Contains(plantName.ToLower())) &&
-             (string.IsNullOrEmpty(diseasesName) || p.disease_name.ToLower().Contains(diseasesName.ToLower())))
+             p.plant_name.ToLower().Contains(plantName.ToLower()) &&
+             p.disease_name.ToLower().Contains(diseasesName.ToLower()))
 
         {
 

@@ -1,17 +1,23 @@
 [
-    {
-      "Name": "Seeds"
-    },
-    {
-      "Name": "Fertilizers"
-    },
-    {
-      "Name": "Pesticides"
-    },
-    {
-      "Name": "Tools"
-    },
-    {
-      "Name": "Irrigation"
-    }
-  ]
+  {
+    "Name": "Seeds"
+  },
+  {
+    "Name": "Fertilizers"
+  },
+  {
+    "Name": "Pest Control"
+  },
+  {
+    "Name": "Garden Tools"
+  },
+  {
+    "Name": "Irrigation"
+  },
+  {
+    "Name": "Decorative Plants"
+  },
+  {
+    "Name": "Plant Accessories"
+  }
+]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.RegularExpressions;
+using Talabat.APIs.DTO;
 using Talabat.APIs.Errors;
 using Talabat.Core;
 using Talabat.Core.Entities.Diseases;
@@ -15,7 +16,7 @@ namespace Talabat.APIs.Controllers
         private readonly IPLantDiseasesService _pLantDiseasesService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public PlantDiseasesController(IPLantDiseasesService pLantDiseasesService , IUnitOfWork unitOfWork )
+        public PlantDiseasesController(IPLantDiseasesService pLantDiseasesService , IUnitOfWork unitOfWork  )
         {
             _pLantDiseasesService = pLantDiseasesService;
             _unitOfWork = unitOfWork;
@@ -23,7 +24,7 @@ namespace Talabat.APIs.Controllers
 
 
         [HttpPost("predict")]
-        public async Task<IActionResult> PredictDisease(IFormFile file)
+        public async Task<ActionResult<PlantDiseasesDto>> PredictDisease(IFormFile file)
         {
             try
             {
@@ -39,10 +40,10 @@ namespace Talabat.APIs.Controllers
                 if (!allowedExtensions.Contains(extinsion))
                     return BadRequest(new ApiResponse(400, "Invalid file type. Only JPG, JPEG, and PNG are allowed."));
 
-                var result =await _pLantDiseasesService.PredictDiseaseAsync(file);
+                var result = await _pLantDiseasesService.PredictDiseaseAsync(file);
 
                 string pattern = @"""disease_name"":\s*""'(.+?)',""";
-                Match match = Regex.Match(result, pattern);
+                Match match = Regex.Match(result.Response, pattern);
 
                 if (match.Success)
                 {
@@ -56,21 +57,37 @@ namespace Talabat.APIs.Controllers
                 }
                 else
                 {
-                    Console.WriteLine("Failed to extract disease_name.");
+                    BadRequest(new ApiResponse(400, "Failed to extract disease_name."));
                 }
 
 
-                var spec = new PlantDiseasesSpecifications(plantName.ToLower(), diseaseName.ToLower());
+                var spec = new PlantDiseasesSpecifications(plantName, diseaseName.Replace(" " , "_"));
                 var plant = await _unitOfWork.Repository<PlantDiseases>().GetByIdWithSpecAsync(spec);
 
+                if (plant is null)
+                    return BadRequest(new ApiResponse(400, "Null Reference Exeption"));
 
-                return Ok(plant);
+
+                return Ok(new PlantDiseasesDto
+                {
+                    Name = string.Concat(plant.plant_name , " - " , plant.disease_name) ,
+                    Discreption = plant.description,
+                    CareTips = plant.prevention_tips,
+                    image = result.Image,
+                });
 
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
+        }
+
+        [HttpGet("Plants")]
+        public async Task<IReadOnlyList<PlantDiseases>> GetAllPlants()
+        {
+            var plants = await _unitOfWork.Repository<PlantDiseases>().GetAllAsync();
+            return (plants);
         }
     }
 }

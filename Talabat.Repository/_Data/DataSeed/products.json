@@ -1,5 +1,309 @@
 [
     {
+      "Name": "Peace Lily Plant",
+      "Description": "Beautiful air-purifying plant with white flowers. Perfect for indoor decoration.",
+      "Price": 250,
+      "PictureUrl": "images/products/peace-lily.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Fiddle Leaf Fig Tree",
+      "Description": "Trendy decorative tree with large, violin-shaped leaves.",
+      "Price": 600,
+      "PictureUrl": "images/products/fiddle-leaf.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Succulent Arrangement",
+      "Description": "Assortment of 6 colorful succulents in ceramic pot.",
+      "Price": 180,
+      "PictureUrl": "images/products/succulent-arrangement.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Orchid Phalaenopsis",
+      "Description": "Elegant flowering orchid in decorative pot. Blooms last for months.",
+      "Price": 350,
+      "PictureUrl": "images/products/orchid.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Bonsai Ficus Tree",
+      "Description": "Miniature tree perfect for desk decoration. Comes with care guide.",
+      "Price": 420,
+      "PictureUrl": "images/products/bonsai-ficus.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Hanging Spider Plant",
+      "Description": "Air-purifying plant with cascading green and white leaves.",
+      "Price": 120,
+      "PictureUrl": "images/products/spider-plant.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Decorative Cactus Set",
+      "Description": "Set of 3 unique cacti in stylish geometric planters.",
+      "Price": 200,
+      "PictureUrl": "images/products/cactus-set.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Rubber Plant",
+      "Description": "Large-leafed decorative plant that purifies indoor air.",
+      "Price": 380,
+      "PictureUrl": "images/products/rubber-plant.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Lucky Bamboo Arrangement",
+      "Description": "Traditional lucky bamboo stalks in glass vase with pebbles.",
+      "Price": 150,
+      "PictureUrl": "images/products/lucky-bamboo.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "String of Pearls Hanging Plant",
+      "Description": "Unique trailing succulent with bead-like leaves.",
+      "Price": 220,
+      "PictureUrl": "images/products/string-of-pearls.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Monstera Deliciosa",
+      "Description": "Popular tropical plant with distinctive split leaves.",
+      "Price": 450,
+      "PictureUrl": "images/products/monstera.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Aloe Vera Plant",
+      "Description": "Healing plant with soothing gel inside leaves. Easy to care for.",
+      "Price": 160,
+      "PictureUrl": "images/products/aloe-vera.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "ZZ Plant",
+      "Description": "Nearly indestructible plant with glossy green leaves.",
+      "Price": 280,
+      "PictureUrl": "images/products/zz-plant.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Pothos Golden",
+      "Description": "Trailing vine plant with heart-shaped variegated leaves.",
+      "Price": 130,
+      "PictureUrl": "images/products/pothos.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Bird of Paradise",
+      "Description": "Tropical plant with large, banana-like leaves.",
+      "Price": 520,
+      "PictureUrl": "images/products/bird-of-paradise.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Snake Plant",
+      "Description": "Hardy plant with tall, sword-like leaves. Excellent air purifier.",
+      "Price": 190,
+      "PictureUrl": "images/products/snake-plant.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Chinese Money Plant",
+      "Description": "Unique round-leaved plant said to bring good fortune.",
+      "Price": 240,
+      "PictureUrl": "images/products/money-plant.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Fern Hanging Basket",
+      "Description": "Lush green fern perfect for shaded porches or bathrooms.",
+      "Price": 170,
+      "PictureUrl": "images/products/fern.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Majesty Palm",
+      "Description": "Tropical palm that adds elegance to any space.",
+      "Price": 380,
+      "PictureUrl": "images/products/majesty-palm.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Calathea Rattlesnake",
+      "Description": "Decorative plant with patterned leaves that move with light.",
+      "Price": 290,
+      "PictureUrl": "images/products/calathea.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Pink Anthurium",
+      "Description": "Tropical flowering plant with glossy heart-shaped blooms.",
+      "Price": 310,
+      "PictureUrl": "images/products/anthurium.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Dracaena Marginata",
+      "Description": "Architectural plant with slender, red-edged leaves.",
+      "Price": 270,
+      "PictureUrl": "images/products/dracaena.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "String of Hearts",
+      "Description": "Delicate trailing plant with heart-shaped leaves.",
+      "Price": 230,
+      "PictureUrl": "images/products/string-of-hearts.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Bromeliad Guzmania",
+      "Description": "Colorful tropical plant with long-lasting flower bracts.",
+      "Price": 260,
+      "PictureUrl": "images/products/bromeliad.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Parlor Palm",
+      "Description": "Classic Victorian-era palm perfect for low-light spaces.",
+      "Price": 210,
+      "PictureUrl": "images/products/parlor-palm.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Croton Petra",
+      "Description": "Colorful foliage plant with vibrant red, orange and yellow leaves.",
+      "Price": 240,
+      "PictureUrl": "images/products/croton.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Pilea Peperomioides",
+      "Description": "Trendy pancake plant with round, coin-like leaves.",
+      "Price": 280,
+      "PictureUrl": "images/products/pilea.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Philodendron Brasil",
+      "Description": "Vining plant with heart-shaped leaves in green and yellow.",
+      "Price": 190,
+      "PictureUrl": "images/products/philodendron.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Jade Plant",
+      "Description": "Symbol of good luck. Thick, glossy leaves on woody stems.",
+      "Price": 160,
+      "PictureUrl": "images/products/jade-plant.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Areca Palm",
+      "Description": "Feathery palm that adds tropical flair to interiors.",
+      "Price": 350,
+      "PictureUrl": "images/products/areca-palm.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Ficus Lyrata Bambino",
+      "Description": "Compact version of fiddle leaf fig perfect for small spaces.",
+      "Price": 320,
+      "PictureUrl": "images/products/ficus-bambino.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Hoya Heart",
+      "Description": "Single heart-shaped leaf rooted in decorative pot.",
+      "Price": 140,
+      "PictureUrl": "images/products/hoya-heart.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Ponytail Palm",
+      "Description": "Unique drought-tolerant plant with bulbous trunk.",
+      "Price": 290,
+      "PictureUrl": "images/products/ponytail-palm.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
+      "Name": "Aglaonema Red",
+      "Description": "Colorful Chinese evergreen with pink and green foliage.",
+      "Price": 270,
+      "PictureUrl": "images/products/aglaonema.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Peperomia Obtusifolia",
+      "Description": "Compact plant with thick, spoon-shaped leaves.",
+      "Price": 180,
+      "PictureUrl": "images/products/peperomia.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Schefflera Arboricola",
+      "Description": "Umbrella plant with glossy green leaves on woody stems.",
+      "Price": 280,
+      "PictureUrl": "images/products/schefflera.png",
+      "CategoryId": 6,
+      "BrandId": 6
+    },
+    {
+      "Name": "Marble Queen Pothos",
+      "Description": "Variegated version of golden pothos with white marbling.",
+      "Price": 200,
+      "PictureUrl": "images/products/marble-queen.png",
+      "CategoryId": 6,
+      "BrandId": 7
+    },
+    {
+      "Name": "Kalanchoe Blossfeldiana",
+      "Description": "Colorful flowering succulent with long-lasting blooms.",
+      "Price": 170,
+      "PictureUrl": "images/products/kalanchoe.png",
+      "CategoryId": 6,
+      "BrandId": 8
+    },
+    {
       "Name": "Premium Wheat Seeds",
       "Description": "High-yield wheat seeds with 95% germination rate. Suitable for all soil types.",
       "Price": 350,
@@ -215,4 +519,4 @@
       "CategoryId": 5,
       "BrandId": 2
     }
-  ]
+]
